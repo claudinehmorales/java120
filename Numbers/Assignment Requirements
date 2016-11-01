@@ -1,0 +1,45 @@
+For this assignment you will develop a utility class, Numbers, that implements some common arithmetic calculations. The definition for all of the calculations can be found on the Math Is Fun website (Links to an external site.). Please place Numbers in package cp120.assignments.assignment003. The methods are as follows:
+
+public static boolean isPrime( int num )
+This method will return true if num is a prime number and false if num is not prime. 0 and 1 must be treated as non-prime.
+
+Precondition: num is a non-negative number.
+
+public static int lcm( int param1, int param2 )
+This method will calculate the least common multiple of param1 and param2. If either or both parameters are 0 the result must be 0. 
+Precondition: param1 and param2 are non-negative numbers.
+
+public static int gcf( int param1, int param2 )
+This method will calculate the greatest common factor of param1 and param2. If either or both parameters are 0 the result must be 0.
+
+Precondition: param1 and param2 are non-negative numbers.
+
+public static int digitSum( int num )
+This method will calculate the sum of the digits of num.
+
+Precondition: num is a non-negative number.
+
+public static double mean( double[] arr )
+This method will calculate the mean of the the numbers in arr.
+
+Precondition: arr contains at least one element.
+
+public static double median( double[] arr )
+This method will calculate the median of the the numbers in arr.
+
+Precondition: arr contains at least one element.
+
+public static BigInteger factorial( int num )
+This method will calculate the factorial of num, and return it as a BigInteger (you will have to study the documentation for BigInteger). Note that 0! (0 factorial) is 1.
+
+Precondition: num is a non-negative number.
+
+public static BigInteger factorial( BigInteger num )
+This method will calculate the factorial of num, and return it as a BigInteger (you will have to study the documentation for BigInteger). Note that 0! (0 factorial) is 1.
+
+Precondition: num is a non-negative number.
+
+Notes
+Assume 0 and 1 are not prime numbers
+0! (0 factorial) is 1
+To convert from int to BigInteger use BigInteger.valueOf( int )
