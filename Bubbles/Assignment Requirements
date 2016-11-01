@@ -1,0 +1,5 @@
+Write a simple program with a main method in the source file Bubbles.java. The main method should:
+
+Use a Turtle to fill a green circle with a radius of 128.Put it towards the left side of the Turtles' playground.
+Fill four more circles to the right of the first one; each circle will have half the radius of the previous circle. Each circle will intersect the previous circle at a single point.
+Place Bubbles.java in package cp120.assignments.assignment001.
